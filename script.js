@@ -2,10 +2,12 @@ let modal = document.getElementById("myModal");
 let btn = document.getElementById("myBtn");
 let close = document.getElementById("myClose");
 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
+btn.addEventListener('click', (event) =>{
+      event.preventDefault();
+      modal.style.display = "block";
+})
 
-close.onclick = function() {
+close.addEventListener('click', (event) =>{
+  event.preventDefault();
   modal.style.display = "none";
-}
+})

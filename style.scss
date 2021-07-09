@@ -532,7 +532,6 @@ body {
   }
   .elem h2 {
     font-size: 25px;
-    text-align: center;
   }
   .text {
     font-size: 13px;
@@ -561,6 +560,9 @@ body {
     }
     &__elem {
       width: 100%;
+      h2 {
+        text-align: center;
+      }
     }
   }
   .frame {
