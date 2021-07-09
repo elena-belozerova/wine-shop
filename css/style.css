@@ -661,7 +661,6 @@ body {
   }
   .elem h2 {
     font-size: 25px;
-    text-align: center;
   }
   .text {
     font-size: 13px;
@@ -685,6 +684,9 @@ body {
   }
   .section-three__elem {
     width: 100%;
+  }
+  .section-three__elem h2 {
+    text-align: center;
   }
   .frame {
     padding: 105px 50px 90px 50px;
